@@ -23,5 +23,4 @@ This is a full-stack web application built with Django that allows users to regi
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/recipe-management.git
-   cd recipe-management
+      git clone https://github.com/yourusername/recipe-management.git
