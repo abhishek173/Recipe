@@ -28,7 +28,19 @@ This is a full-stack web application built with Django that allows users to regi
 ## Building and Running Docker-Image
 
   1. **Move Inside Project main Directory**
-      - Run the Below command
-   ```bash
-      docker-compose up --build
+     
+     - Run the Below command
+     ```bash
+        docker-compose up --build
+     
+  3. **To create admin User**
+       - Run below command
+       ```bash
+          docker ps
+          docker exec -it <container_id> bash
+          python manage.py createsuperuser
+       - Provide the required admin username and password
+
+ 
+
 
