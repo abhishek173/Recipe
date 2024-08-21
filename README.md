@@ -24,7 +24,7 @@ This is a full-stack web application built with Django that allows users to regi
 - Python 3.x
 - Django
 
-## Installation
+## Setup Instructions
 
 1. **Clone the repository:**
 
