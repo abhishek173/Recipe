@@ -24,3 +24,11 @@ This is a full-stack web application built with Django that allows users to regi
 
    ```bash
       git clone https://github.com/abhishek173/Recipe.git
+
+2. **Building and Running Docker-Image:**
+
+    - Go Inside Project main Directory
+    - Run the Below command
+
+   ```bash
+      docker-compose up --build 
