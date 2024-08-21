@@ -37,9 +37,11 @@ This is a full-stack web application built with Django that allows users to regi
        - Run below command
        ```bash
           docker ps
+       ```bash
           docker exec -it <container_id> bash
+       ```bash
           python manage.py createsuperuser
-       - Provide the required admin username and password
+  - Provide the required admin username and password
 
  
 
