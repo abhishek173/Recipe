@@ -71,32 +71,6 @@ This is a full-stack web application built with Django that allows users to regi
 
 Once everything is set up, you can access the Django admin panel by navigating to `http://localhost:8000/admin` in your web browser. Log in with the superuser credentials you created.
 
-## Installation of Jenkins
-
-    ```bash
-    sudo apt update
-    ```
-
-    ```bash
-    sudo apt install openjdk-17-jre
-    ```
-
-    ```bash
-    java --version
-    ```
-
-    ```bash
-    curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
- /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-
-echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
- https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
- /etc/apt/sources.list.d/jenkins.list > /dev/null
-
-sudo apt-get update
-sudo apt-get install jenkins
-
-    ```
 
 
  
