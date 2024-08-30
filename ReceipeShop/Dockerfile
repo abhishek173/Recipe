@@ -8,8 +8,8 @@ RUN pip install django
 
 RUN pip install -r requirements.txt
 
-COPY . .
+COPY . /app
 
 EXPOSE 8000
 
-CMD python manage.py runserver
+CMD python /app/manage.py runserver
